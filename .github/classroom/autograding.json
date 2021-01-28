@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "testPrimesCountFactors1",
+      "setup": "gradle test --tests TestUnit4ProblemSet.testPrimesCountFactors1",
+      "run": "gradle test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "testPrimesCountFactors2",
+      "setup": "",
+      "run": "gradle test --tests TestUnit4ProblemSet.testPrimesCountFactors2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "testPrimesIsPrime1",
+      "setup": "",
+      "run": "gradle test --tests TestUnit4ProblemSet.testPrimesIsPrime1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "testPrimesIsPrime2",
+      "setup": "",
+      "run": "gradle test --tests TestUnit4ProblemSet.testPrimesIsPrime2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "testPrimesCountPrimes1",
+      "setup": "",
+      "run": "gradle test --tests TestUnit4ProblemSet.testPrimesCountPrimes1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 9
+    },
+    {
+      "name": "testPrimesCountPrimes2",
+      "setup": "",
+      "run": "gradle test --tests TestUnit4ProblemSet.testPrimesCountPrimes2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 9
+    }
+  ]
+}
